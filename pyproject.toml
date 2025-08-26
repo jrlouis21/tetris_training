@@ -1,0 +1,13 @@
+[project]
+name = "tetris-training"
+version = "0.1.0"
+description = "A playground for teaching AI how to play Tetris."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[other]>=1.2.0",
+    "mediapy>=1.2.4",
+    "pyboy[botsupport]>=2.6.0",
+    "stable-baselines3[extra]>=2.7.0",
+    "structlog>=25.4.0",
+]
